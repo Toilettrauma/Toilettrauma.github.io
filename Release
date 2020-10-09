@@ -1,0 +1,8 @@
+Origin: Toilettrauma’s repo
+Label: Toilettrauma's repo
+Suite: stable
+Version: 1.0
+Codename: Toilettraumarepo
+Architectures: iphoneos-arm
+Components: main
+Description: Toilettrauma's Cydia Repository :|
