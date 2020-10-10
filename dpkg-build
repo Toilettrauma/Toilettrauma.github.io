@@ -1,0 +1,9 @@
+echo Building Packages...
+./dpkg-scanpackages Files /dev/null > Packages
+echo Building Packages.gz and .bz2...
+gzip -c9 Packages > Packages.gz
+bzip2 -c9 Packages > Packages.bz2
+echo Adding to repo...
+git add -A
+git commit -m "Repo"
+git push myrepo master
