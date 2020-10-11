@@ -17,12 +17,12 @@ Package: com.toilettrauma.sillyo-installer
 Version: 0.4b6-5
 Section: Utilities
 Maintainer: Self
-Depends: libapt-pkg5.0, apt1.4, com.toilettrauma.sillyo, curl
+Depends: libapt-pkg5.0, apt1.4, com.toilettrauma.sillyo, curl, org.swift.libswift
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.toilettrauma.sillyo-installer.beta
 Architecture: iphoneos-arm
 Filename: Files/com.toilettrauma.sillyo-installer_0.4b6-5_iphoneos-arm.deb
-Size: 1146
-MD5sum: 76b547b920b33a60d09ae95aefcae0a8
+Size: 1376
+MD5sum: 1998982c3a6cd4a22e40280692012b0d
 Description: Safely install official Sileo on unc0ver
 Name: Sileo for unc0ver
 Author: Self
@@ -31,12 +31,12 @@ Package: com.toilettrauma.sillyo-installer.beta
 Version: 2.0.0b6-6
 Section: Utilities
 Maintainer: Self
-Depends: libapt-pkg5.0, apt1.4, com.toilettrauma.sillyo, curl
+Depends: libapt-pkg5.0, apt1.4, com.toilettrauma.sillyo, curl, org.swift.libswift
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.toilettrauma.sillyo-installer
 Architecture: iphoneos-arm
 Filename: Files/com.toilettrauma.sillyo-installer.beta_2.0.0b6-6_iphoneos-arm.deb
-Size: 1164
-MD5sum: f4a6ad167a6ed3c8ea121f8674c5c2f6
+Size: 1396
+MD5sum: 118205ffc7bc87a6d570e533a29f4899
 Description: Safely install official Sileo on unc0ver
 Name: Sileo for unc0ver (untested!)
 Author: Self
