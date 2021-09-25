@@ -5,7 +5,7 @@ Maintainer: Self
 Depends: mobilesubstrate
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo
 Architecture: iphoneos-arm
-Filename: Files/com.toilettrauma.sillyo_1.2.1_iphoneos-arm.deb
+Filename: ./Files/com.toilettrauma.sillyo_1.2.1_iphoneos-arm.deb
 Size: 11870
 Installed-Size: 117
 MD5sum: 76e374ec4f6e6bd7b40dc0ee671b469c
@@ -20,7 +20,7 @@ Maintainer: Self
 Depends: libapt-pkg5.0, apt1.4, com.toilettrauma.sillyo, curl, org.swift.libswift
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.toilettrauma.sillyo-installer.beta
 Architecture: iphoneos-arm
-Filename: Files/com.toilettrauma.sillyo-installer_0.4b6-5_iphoneos-arm.deb
+Filename: ./Files/com.toilettrauma.sillyo-installer_0.4b6-5_iphoneos-arm.deb
 Size: 1400
 MD5sum: 2d89cd97f4e08ee92044aaa169ad20d7
 Description: Safely install official Sileo on unc0ver
@@ -34,12 +34,26 @@ Maintainer: Self
 Depends: libapt-pkg5.0, apt1.4, com.toilettrauma.sillyo, curl, org.swift.libswift
 Conflicts: com.pixelomer.u0sileo.backend, com.pixelomer.u0sileo, com.toilettrauma.sillyo-installer
 Architecture: iphoneos-arm
-Filename: Files/com.toilettrauma.sillyo-installer.beta_2.0.0b6-6_iphoneos-arm.deb
+Filename: ./Files/com.toilettrauma.sillyo-installer.beta_2.0.0b6-6_iphoneos-arm.deb
 Size: 1388
 MD5sum: 8fd76efccc65f66aa51aaac279fcf390
 Description: Safely install official Sileo on unc0ver
 Name: Sileo for unc0ver (untested!)
 Author: Self
+
+Package: com.toilettrauma.toplayfix
+Version: 0.0.1
+Section: Tweaks
+Maintainer: Toilettrauma
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: ./Files/com.toilettrauma.toplayfix_0.0.1_iphoneos-arm.deb
+Size: 9528
+Installed-Size: 136
+MD5sum: 36fa15101468ea0cfbe5916ec3581e19
+Description: Fixes soundcloud download
+Name: To play Fix
+Author: Toilettrauma
 
 Package: org.swift.libswift
 Version: 5.0-electra2
@@ -47,7 +61,7 @@ Section: Development
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 7.0)
 Architecture: iphoneos-arm
-Filename: Files/org.swift.libswift_5.0-electra2_iphoneos-arm.deb
+Filename: ./Files/org.swift.libswift_5.0-electra2_iphoneos-arm.deb
 Size: 23330860
 MD5sum: 41d4fb6b08e22467836a200d6bf8db9c
 Description: Swift runtime for iOS
