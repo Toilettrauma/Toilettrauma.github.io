@@ -42,15 +42,15 @@ Name: Sileo for unc0ver (untested!)
 Author: Self
 
 Package: com.toilettrauma.toplayfix.ios12
-Version: 2.1.4
+Version: 2.1.5
 Section: Tweaks
 Maintainer: Toilettrauma
 Depends: firmware (>= 11.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: Files/com.toilettrauma.toplayfix.ios12_2.1.4_iphoneos-arm.deb
-Size: 8068
+Filename: Files/com.toilettrauma.toplayfix.ios12_2.1.5_iphoneos-arm.deb
+Size: 7984
 Installed-Size: 80
-MD5sum: 495b473dc47af33941275cfa4aa47891
+MD5sum: c25aa9aba8cc03c4b37eda5f8723553d
 Description: Fixes soundcloud download
 Name: To play Fix (IOS 11-13)
 Author: Toilettrauma
